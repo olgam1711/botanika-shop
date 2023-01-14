@@ -1,0 +1,149 @@
+/*general styles*/
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Montserrat", "Helvetica", serif;
+  font-size: 16px;
+  color: #AE7C78;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 25px;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  body {
+    text-align: justify;
+  }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+h3 {
+  font-size: 19px;
+}
+
+a {
+    color: #AE7C78;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+a:focus,
+a:active {
+    opacity: 0.2;
+}
+
+.button {
+    background: #D89999;
+    border-radius: 40px;
+    color: #FFFFFF;
+    padding: 30px 70px;
+    display: inline-block;
+    vertical-align: middle;
+    appearance: none;
+    border: none;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    opacity: 0.5;
+}
+
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+}
+
+/*navigation in header and footer*/
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+/*header*/
+
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.header__nav {
+    position: relative;
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+}
+
+.header__nav img {
+    position: absolute;
+    left: 50%;
+    top: 13px;
+}
+
+.nav-list__item--third {
+    margin-right: 120px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #AE7C78;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer__nav {
+    position: relative;
+    color: #ffffff;
+}
+
+.footer__nav img {
+    position: absolute;
+    top: 0;
+    left: 3%;
+}
+
+.nav-list__item--first {
+    margin-left: 120px;
+}
