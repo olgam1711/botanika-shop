@@ -1,3 +1,3 @@
 # Botanika
 
-Сайт для практики вёрстки
+Website for practice
