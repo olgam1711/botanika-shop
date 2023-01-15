@@ -13,33 +13,15 @@ body {
   text-align: left;
 }
 
-@media (min-width: 768px) {
-  body {
-    text-align: justify;
-  }
-}
-
 img {
     max-width: 100%;
     height: auto;
 }
 
 .container {
-  min-width: 320px;
+  min-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-}
-
-@media (min-width: 768px) {
-  .container {
-    min-width: 768px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
 }
 
 h3 {
