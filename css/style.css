@@ -117,13 +117,16 @@ a:active {
 
 .footer__nav {
     position: relative;
-    color: #ffffff;
 }
 
 .footer__nav img {
     position: absolute;
     top: 0;
     left: 3%;
+}
+
+.footer__nav a {
+  color: #ffffff;
 }
 
 .nav-list__item--first {
