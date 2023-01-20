@@ -105,24 +105,24 @@ a:active {
 
 /*main promo*/
 
-.main-promo {
+.promo {
   display: flex;
   justify-content: space-around;
 }
 
-.main-promo__desc {
+.promo__desc {
   display: block;
 }
 
-.main-promo__desc h1 {
+.promo__desc h1 {
   font-size: 44px;
 }
 
-.main-promo__desc p {
+.promo__desc p {
   font-size: 24px;
 }
 
-.main-promo__desc a {
+.promo__desc a {
   padding: 20px 30px;
   color: #ffffff;
   background-color: #AE7C78;
@@ -149,28 +149,28 @@ a:active {
   padding-right: 0;
 }
 
-/*main-popular*/
+/*popular*/
 
-.main-popular {
+.popular {
   display: block;
 }
 
-.main-popular h2 {
+.popular h2 {
   text-align: center;
 }
 
-.main-popular__desc {
+.popular__desc {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
 }
 
-.main-popular__arrows {
+.popular__arrows {
   display: flex;
   justify-content: center;
 }
 
-/*main-catalogue*/
+/*catalogue*/
 
 .catalogue-list {
   display: flex;
@@ -205,9 +205,9 @@ a:active {
   background-repeat: no-repeat;
 }
 
-/*main-sale*/
+/*sale*/
 
-.main-sale {
+.sale {
   display: flex;
   color: #ffffff;
   font-size: 24px;
@@ -215,33 +215,33 @@ a:active {
   background-color: #AE7C78;
 }
 
-.main-sale h2 {
+.sale h2 {
   font-size: 44px;
 }
 
-/*main-steps*/
+/*steps*/
 
-.main-steps__list {
+.steps__list {
   display: flex;
   justify-content: space-between;
   padding-left: 0;
   list-style-type: none;
 }
 
-.main-steps h2 {
+.steps h2 {
   text-align: center;
 }
 
-.main-steps__list li {
+.steps__list li {
   display: block;
   padding-left: 0;
   max-width: 25%;
   text-align: center;
 }
 
-/*main-reviews*/
+/*reviews*/
 
-.main-reviews__list {
+.reviews__list {
   display: flex;
   justify-content: space-between;
   padding-left: 0;
@@ -249,15 +249,33 @@ a:active {
   border: 1px solid #AE7C78;
 }
 
-.main-reviews h2 {
+.reviews h2 {
   text-align: center;
 }
 
-.main-reviews__list li {
+.reviews__list li {
   display: block;
   padding-left: 0;
   max-width: 33%;
   text-align: center;
+}
+
+/*map*/
+
+.map {
+  position: relative;
+}
+
+.map div {
+  position: absolute;
+  width: 386px;
+  top: 10%;
+  left: 15%;
+  background-color: #ffffff;
+}
+
+.map-text__bold {
+  font-weight: bold;
 }
 
 /*footer*/
