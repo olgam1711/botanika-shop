@@ -122,15 +122,18 @@ a:active {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+  padding-bottom: 40px;
 }
 
 .promo__img--first {
   margin-right: 20px;
   margin-top: 100px;
+  height: 100%;
 }
 
 .promo__img--second {
   margin-top: 40px;
+  height: 100%;
 }
 
 .promo__desc {
@@ -155,20 +158,35 @@ a:active {
   margin-top: 40px;
   max-width: 150px;
   color: #ffffff;
-  background-color: #AE7C78;
+  background-color: #D89999;
   border-radius: 35px;
+}
+
+/*advantage*/
+
+.advantage {
+  margin-top: 40px;
 }
 
 /*advantage-list*/
 
 .advantage-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .advantage-list__desc {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 30px;
+  max-width: 33%;
+}
+
+.advantage-list__desc:last-child {
+  margin-right: 0;
 }
 
 .advantage-list__desc img {
@@ -179,6 +197,10 @@ a:active {
   padding-right: 0;
 }
 
+.advantage-list__desc h4 {
+  margin-top: 0;
+}
+
 /*popular*/
 
 .popular {
@@ -186,18 +208,33 @@ a:active {
 }
 
 .popular h2 {
+  margin-bottom: 40px;
   text-align: center;
+  font-size: 36px;
 }
 
 .popular__desc {
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
+  max-width: 61%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+
+.popular__desc h3 {
+  font-size: 34px;
 }
 
 .popular__arrows {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
+}
+
+.popular__arrows img:first-child {
+  margin-right: 15px;
 }
 
 /*catalogue*/
