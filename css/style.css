@@ -326,10 +326,13 @@ a:active {
   display: flex;
   justify-content: space-between;
   padding-left: 0;
+  margin-bottom: 50px;
   list-style-type: none;
 }
 
 .steps h2 {
+  margin-bottom: 40px;
+  font-size: 36px;
   text-align: center;
 }
 
@@ -342,22 +345,29 @@ a:active {
 
 /*reviews*/
 
-.reviews__list {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 0;
-  list-style-type: none;
-  border: 1px solid #AE7C78;
+.reviews {
+  margin-bottom: 40px;
 }
 
 .reviews h2 {
   text-align: center;
+  font-size: 36px;
+}
+
+/*reviews__list*/
+
+.reviews__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  list-style-type: none;
+  border: 1px solid #AE7C78;
 }
 
 .reviews__list li {
   display: block;
   padding-left: 0;
-  max-width: 33%;
+  max-width: 30%;
   text-align: center;
 }
 
@@ -375,6 +385,16 @@ a:active {
   background-color: #ffffff;
 }
 
+.map img {
+  display: block;
+}
+
+/*map__text*/
+
+.map-text {
+  padding: 20px 30px;
+}
+
 .map-text__bold {
   font-weight: bold;
 }
@@ -383,17 +403,17 @@ a:active {
 
 .footer {
   background-color: #AE7C78;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .footer__nav {
   position: relative;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .footer__nav img {
   position: absolute;
-  top: 0;
+  top: 28%;
   left: 3%;
 }
 
