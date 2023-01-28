@@ -263,6 +263,7 @@ a:active {
   color: #ffffff;
   text-align: center;
   align-items: center;
+  text-shadow: #AE7C78 1px 0 0px, #AE7C78 0 1px 0px, #AE7C78 -1px 0 0px, #AE7C78 0 -1px 0px;
 }
 
 .catalogue-list__desc a:hover {
