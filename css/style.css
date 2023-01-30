@@ -321,13 +321,13 @@ a:active {
 }
 
 .sale__desc h2 {
-  font-size: 44px;
-  line-height: 52px;
+  font-size: 38px;
+  line-height: 40px;
 }
 
 .sale__desc p {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 24px;
 }
 
 /*steps*/
