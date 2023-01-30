@@ -10,7 +10,6 @@ body {
   letter-spacing: 0;
   text-align: center;
   line-height: 25px;
-  text-align: left;
 }
 
 img {
@@ -418,11 +417,12 @@ a:active {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .catalogue-list {
+    display: block;
     margin-bottom: 30px;
   }
 
   .catalogue-list__desc {
-    width: 32%;
+    width: 100%;
     height: auto;
   }
 
