@@ -325,6 +325,27 @@ a:active {
   opacity: 0.8;
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .catalogue-list__desc {
+    width: 31%;
+    height: auto;
+  }
+
+  .catalogue-list__desc a {
+    margin-top: 50px;
+  }
+}
+
+/*@media (min-width: 320px) and (max-width: 767px) {
+  .catalogue-list__desc {
+    height: auto;
+  }
+
+  .catalogue-list__desc a {
+    margin-top: 50px;
+  }
+}*/
+
 .catalogue-list__desc h4 {
   font-size: 36px;
   line-height: 40px;
@@ -377,6 +398,48 @@ a:active {
   font-size: 22px;
   line-height: 24px;
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .sale__desc {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .sale__desc h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .sale__desc p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .sale img {
+    max-width: 45%;
+  }
+}
+
+/*@media (min-width: 320px) and (max-width: 767px) {
+  .sale__desc {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .sale__desc h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .sale__desc p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+    .sale img {
+      max-width: 45%;
+    }
+}*/
 
 /*steps*/
 
@@ -441,10 +504,6 @@ a:active {
 
 .map div {
   position: absolute;
-  width: 386px;
-  top: 10%;
-  left: 15%;
-  background-color: #ffffff;
 }
 
 .map img {
@@ -455,11 +514,35 @@ a:active {
 
 .map-text {
   padding: 20px 30px;
+  width: 386px;
+  top: 10%;
+  left: 15%;
+  background-color: #ffffff;
 }
 
 .map-text__bold {
   font-weight: bold;
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .map-text {
+    padding: 15px 10px;
+    width: 30%;
+    top: 3%;
+    left: 9%;
+    line-height: 13px;
+  }
+}
+
+/*@media (min-width: 320px) and (max-width: 767px) {
+  .map-text {
+    padding: 15px 10px;
+    width: 30%;
+    top: 1%;
+    left: 9%;
+    line-height: 13px;
+  }
+}*/
 
 /*footer*/
 
