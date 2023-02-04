@@ -255,7 +255,7 @@ a:active {
 .advantage-list__desc {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin-right: 30px;
   max-width: 33%;
 }
@@ -407,7 +407,7 @@ a:active {
 @media (min-width: 768px) and (max-width: 1199px) {
   .catalogue-list__desc {
     width: 31%;
-    height: auto;
+    height: 314px;
   }
 
   .catalogue-list__desc a {
@@ -511,6 +511,7 @@ a:active {
   }
 
   .sale__desc {
+    max-width: 100%;
     padding: 10px;
   }
 
@@ -525,7 +526,7 @@ a:active {
   }
 
     .sale img {
-      max-width: 50%;
+      display: none;
     }
 }
 
@@ -640,6 +641,7 @@ a:active {
 
   .map div {
     position: initial;
+    max-width: 80%;
   }
 
   .map img {
