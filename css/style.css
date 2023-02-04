@@ -412,7 +412,7 @@ a:active {
 @media (min-width: 768px) and (max-width: 1199px) {
   .catalogue-list__desc {
     width: 31%;
-    height: 100%;
+    height: auto;
   }
 
   .catalogue-list__desc a {
